@@ -16,7 +16,7 @@ As AI agents move from prototype to production, organizations face a critical ch
 Whether you are building with Google's Agent Development Kit (ADK), LangGraph, or custom orchestration, BigQuery provides the scalable, analytical backend needed to understand your agents.
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=YIJcJnFVgxU"><img src="TBD" alt="Introduction Video" width="50%" /></a>
+<a href="https://www.youtube.com/watch?v=YIJcJnFVgxU"><img src="https://github.com/user-attachments/assets/96d2a8f9-357b-4843-a2bc-5a8c41fb53fe" alt="Introduction Video" width="50%" /></a>
 </p>
 
 ### Learning Resources & Tutorials

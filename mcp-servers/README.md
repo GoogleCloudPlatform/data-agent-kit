@@ -499,7 +499,7 @@ Learn more about tools, permissions, and configuration at :
 
 #### Google Cloud MCP Servers (Managed)
 
-Learn more about tools, permissions, and configuration at [Use the Oracle Database MCP server](https://cloud.google.com/looker/docs/mcp-overview).
+Learn more about tools, permissions, and configuration at [Use the Oracle Database MCP server](https://docs.cloud.google.com/mcp).
 
 ```json
 "oracledb-managed": {
