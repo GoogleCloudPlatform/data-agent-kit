@@ -3,7 +3,7 @@
 This guide covers the two primary ways to utilize MCP with Google Data Cloud products: [**Google Cloud MCP Servers**][mcp] and the [**MCP Toolbox**][tb].
 
 [mcp]: https://docs.cloud.google.com/mcp/overview
-[tb]: mcp-toolbox.dev
+[tb]: https://mcp-toolbox.dev
 
 ## Table of Contents
 
