@@ -104,8 +104,11 @@ For developers building production agents (e.g., using ADK or LangGraph), we pro
 
 ## Security Reminder: Agent Environment Hardening
 
-Your agent has the power to execute tools and commands on your behalf. Protect your GCP resources by enforcing Strict Least Privilege across all CLIs, MCP servers and other resources available to your agents. For example, use scoped Service Accounts (read more
-[here](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation)) for tasks accessing your cloud resources and conducting regular permission and agent settings audits to minimize your attack surface.
+Your agent has the power to execute tools and commands on your behalf. Protect your GCP resources by enforcing Strict Least Privilege across all CLIs, MCP servers and other resources available to your agents. 
+
+Use [service accounts](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation) for accessing your cloud resources.
+Assign the service account a role with [limited permissions](https://docs.cloud.google.com/iam/docs/roles-overview).
+Prevent unwanted cross-org agent access by utilizing Principal Access Boundaries to scope your agent to [projects](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#use-case-one-project) you intend the agent to access. Note: the Principal Access Boundary condition should bind the policy to the service accounts you intend to restrict.
 
 ---
 
