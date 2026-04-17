@@ -3,7 +3,7 @@
 This guide covers the two primary ways to utilize MCP with Google Data Cloud products: [**Google Cloud MCP Servers**][mcp] and the [**MCP Toolbox**][tb].
 
 [mcp]: https://docs.cloud.google.com/mcp/overview
-[tb]: mcp-toolbox.dev
+[tb]: https://mcp-toolbox.dev
 
 ## Table of Contents
 
@@ -499,7 +499,7 @@ Learn more about tools, permissions, and configuration at :
 
 #### Google Cloud MCP Servers (Managed)
 
-Learn more about tools, permissions, and configuration at [Use the Oracle Database MCP server](https://cloud.google.com/looker/docs/mcp-overview).
+Learn more about tools, permissions, and configuration at [Use the Oracle Database MCP server](https://docs.cloud.google.com/mcp).
 
 ```json
 "oracledb-managed": {
