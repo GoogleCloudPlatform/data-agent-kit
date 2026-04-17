@@ -26,14 +26,6 @@
       "description": "Create, connect, and interact with an AlloyDB Omni database and data."
     },
     {
-      "name": "bigquery-data-analytics",
-      "source": {
-        "source": "github",
-        "repo": "gemini-cli-extensions/bigquery-data-analytics"
-      },
-      "description": "Connect, query, and generate data insights for BigQuery datasets and data."
-    },
-    {
       "name": "bigtable",
       "source": {
         "source": "github",
@@ -66,14 +58,6 @@
       "description": "Connect to Cloud SQL for SQL Server."
     },
     {
-      "name": "dataproc",
-      "source": {
-        "source": "github",
-        "repo": "gemini-cli-extensions/dataproc"
-      },
-      "description": "Connect and interact with Google Cloud Dataproc."
-    },
-    {
       "name": "firestore-native",
       "source": {
         "source": "github",
@@ -88,14 +72,6 @@
         "repo": "gemini-cli-extensions/data-agent-kit-starter-pack"
       },
       "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem."
-    },
-    {
-      "name": "dataplex",
-      "source": {
-        "source": "github",
-        "repo": "gemini-cli-extensions/dataplex"
-      },
-      "description": "Connect to Dataplex Universal Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform."
     },
     {
       "name": "looker",

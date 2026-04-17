@@ -80,13 +80,10 @@ These extensions package product-specific Skills and MCP servers for use in any 
 | **AlloyDB for PostgreSQL** | https://github.com/gemini-cli-extensions/alloydb | Create, connect, and interact with an AlloyDB for PostgreSQL database and data. |
 | **AlloyDB Omni** | https://github.com/gemini-cli-extensions/alloydb-omni | Create, connect, and interact with an AlloyDB Omni database and data. |
 | **Bigtable** | https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem | Connect, query, and interact with Cloud Bigtable. |
-| **BigQuery** | https://github.com/gemini-cli-extensions/bigquery-data-analytics | Connect, query, and generate data insights for BigQuery datasets and data. |
 | **Cloud SQL for MySQL** | https://github.com/gemini-cli-extensions/cloud-sql-mysql | Connect and interact with a Cloud SQL for MySQL database and data. |
 | **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
 | **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
-| **Dataproc** | https://github.com/gemini-cli-extensions/dataproc | Connect and interact with Google Cloud Dataproc. |
 | **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
-| **Knowledge Catalog** | https://github.com/gemini-cli-extensions/knowledge-catalog | Connect to Dataplex Universal Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform. |
 | **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
 | **Oracle Database** | https://github.com/gemini-cli-extensions/oracledb | Connect, query, and interact with Oracle Databases and their data within Gemini CLI. |
 | **Spanner** | https://github.com/gemini-cli-extensions/spanner | Connect and interact with Spanner data using natural language. |

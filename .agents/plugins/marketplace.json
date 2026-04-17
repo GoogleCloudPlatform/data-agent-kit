@@ -31,19 +31,6 @@
       "category": "Databases"
     },
     {
-      "name": "bigquery-data-analytics",
-      "source": {
-        "source": "local",
-        "path": "./bigquery-data-analytics"
-      },
-      "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Databases"
-    },
-    {
       "name": "cloud-sql-mysql",
       "source": {
         "source": "local",
@@ -96,38 +83,12 @@
       "category": "Databases"
     },
     {
-      "name": "dataproc",
-      "source": {
-        "source": "local",
-        "path": "./dataproc"
-      },
-      "description": "Connect and interact with Google Cloud Dataproc.",
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Databases"
-    },
-    {
       "name": "firestore-native",
       "source": {
         "source": "local",
         "path": "./firestore-native"
       },
       "description": "Connect and interact with Cloud Firestore.",
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Databases"
-    },
-    {
-      "name": "knowledge-catalog",
-      "source": {
-        "source": "local",
-        "path": "./knowledge-catalog"
-      },
-      "description": "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform.",
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
