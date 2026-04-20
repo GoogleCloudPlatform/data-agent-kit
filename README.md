@@ -16,6 +16,8 @@ The Data Agent Kit is currently organized as an index pointing to product-specif
 
 Extensions and plugins are the primary way to inject specialized capabilities into your AI agents. Think of a plugin marketplace as a digital registry or catalog that makes it easy to discover, share, and install these tools directly into your environment. By installing these packages, you equip tools like Gemini CLI, Claude Code, and Codex with the exact **Skills, Prompts, and MCP Servers** they need to understand and interact with your Google Data Cloud infrastructure.
 
+<!-- {x-release-please-start-version} -->
+
 <details>
 <summary><h3>Gemini CLI Installation</h3></summary>
 
@@ -59,16 +61,22 @@ Codex utilizes a marketplace system for plugins. Install the Data Agent Kit mark
 
 ```bash
 # Step 1. Clone the repo
-git clone https://github.com/GoogleCloudPlatform/data-agent-kit.git
+git clone --branch 0.1.0 https://github.com/GoogleCloudPlatform/data-agent-kit.git
 cd data-agent-kit
 
 # Step 2. Open the plugin manager interface
 codex
-/plugins
 # Browse & install plugins from available marketplaces.
+/plugins
+
+# Optional. Update the marketplace
+git fetch --tags
+git checkout 0.1.0
 ```
 
 </details>
+
+<!-- {x-release-please-end} -->
 
 ### 📦 Individual Extensions & Plugins
 
