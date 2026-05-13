@@ -40,3 +40,6 @@
 [submodule "data-agent-kit-starter-pack"]
 	path = data-agent-kit-starter-pack
 	url = https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack
+[submodule "universal-commerce-analytics"]
+	path = universal-commerce-analytics
+	url = https://github.com/haiyuan-eng-google/Universal-Commerce-Protocol-Analytics.git
