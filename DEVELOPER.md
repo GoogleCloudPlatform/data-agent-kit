@@ -66,7 +66,15 @@ gemini extensions install ./<submodule-directory>
 Please use [Conventional Commits](https://www.conventionalcommits.org/) for your pull requests. This ensures that automated changelogs and version bumps (via Release Please) are handled correctly across the ecosystem.
 
 ### Updating Submodule References
-Maintainers of this central repository must periodically update the submodule pointers to reflect the latest stable releases of the product extensions:
+
+#### Automated Updates (Recommended)
+This repository is configured with **Renovate** to automatically keep submodule references up to date with their latest stable releases and tags:
+* **Unified PRs:** When a new branch version (e.g., `0.1.0` -> `0.2.0`) is found on a remote submodule, Renovate opens a single consolidated Pull Request bundling both the tracking branch update in `.gitmodules` and the new commit SHA (digest) together.
+* **Semantic Commits:** These automated PRs and commits are prefixed with the `feat` type (e.g., `feat(deps): update alloydb submodule`).
+* **Digest Filtering:** To reduce PR noise, Renovate will ignore pure digest-only updates if no new branch/version has been tagged or updated on the remote submodule.
+
+#### Manual Updates (Backup / Fallback)
+If you need to manually update the submodule pointers to reflect the latest stable releases of the product extensions:
 
 1. Run `git submodule update --remote --merge --recursive`.
 2. Commit the updated submodule hashes: `git commit -am "chore: update product submodules to latest"`.
