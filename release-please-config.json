@@ -28,6 +28,7 @@
       "release-type": "simple",
       "package-name": "data-agent-kit",
       "extra-files": [
+        "README.md",
         {
           "type": "json",
           "path": ".claude-plugin/marketplace.json",
