@@ -1,0 +1,10 @@
+.antigravitycli/
+
+.env
+
+.vscode/
+.idea/
+.vs/
+.DS_Store
+
+

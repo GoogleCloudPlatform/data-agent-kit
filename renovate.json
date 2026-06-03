@@ -13,6 +13,9 @@
   "dependencyDashboardLabels": [
     "type: process"
   ],
+  "git-submodules": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "groupName": "GitHub Actions",
@@ -20,6 +23,23 @@
         "github-actions"
       ],
       "pinDigests": true
+    },
+    {
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "groupName": "{{depName}} plugin",
+      "semanticCommitType": "feat"
+    },
+    {
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
+      "enabled": false
     }
   ]
 }
+
