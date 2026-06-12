@@ -61,7 +61,7 @@ Codex utilizes a marketplace system for plugins. Install the Data Agent Kit mark
 
 ```bash
 # Step 1. Clone the repo
-git clone --branch 0.1.1 https://github.com/GoogleCloudPlatform/data-agent-kit.git
+git clone --recurse-submodules --shallow-submodules --branch 0.1.1 https://github.com/GoogleCloudPlatform/data-agent-kit.git
 cd data-agent-kit
 
 # Step 2. Open the plugin manager interface
