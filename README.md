@@ -60,18 +60,14 @@ claude plugin marketplace update data-agent-kit
 Codex utilizes a marketplace system for plugins. Install the Data Agent Kit marketplace to access all Data Cloud plugins:
 
 ```bash
-# Step 1. Clone the repo
-git clone --branch 0.1.0 https://github.com/GoogleCloudPlatform/data-agent-kit.git
-cd data-agent-kit
+# Step 1. Install marketplace
+codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
 
-# Step 2. Open the plugin manager interface
-codex
-# Browse & install plugins from available marketplaces.
-/plugins
+# Step 2. Install a plugin
+codex plugin install <plugin-name>@data-agent-kit
 
 # Optional. Update the marketplace
-git fetch --tags
-git checkout 0.1.0
+codex plugin marketplace upgrade data-agent-kit
 ```
 
 </details>
