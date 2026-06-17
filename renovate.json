@@ -26,19 +26,34 @@
     },
     {
       "matchManagers": [
-        "git-submodules"
+        "git-submodules",
+        "custom.jsonata"
       ],
-      "groupName": "{{depName}} plugin",
-      "semanticCommitType": "feat"
+      "groupName": "{{depName}}"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "jsonata",
+      "fileFormat": "json",
+      "managerFilePatterns": [
+        "/^\\.claude-plugin/marketplace\\.json$/"
+      ],
+      "matchStrings": [
+        "plugins.{ \"depName\": $substringAfter(source.repo, \"/\"), \"packageName\": source.repo, \"currentValue\": source.ref }"
+      ],
+      "datasourceTemplate": "github-releases"
     },
     {
-      "matchManagers": [
-        "git-submodules"
+      "customType": "jsonata",
+      "fileFormat": "json",
+      "managerFilePatterns": [
+        "/^\\.agents/plugins/marketplace\\.json$/"
       ],
-      "matchUpdateTypes": [
-        "digest"
+      "matchStrings": [
+        "plugins.($r := $replace(source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $substringAfter($r, \"/\"), \"packageName\": $r, \"currentValue\": source.ref })"
       ],
-      "enabled": false
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
