@@ -29,7 +29,17 @@
         "git-submodules",
         "custom.jsonata"
       ],
-      "groupName": "{{depName}}"
+      "groupName": "{{depName}}",
+      "semanticCommitType": "feat"
+    },
+    {
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
+      "enabled": false
     }
   ],
   "customManagers": [
