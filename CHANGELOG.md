@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.3](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.2...0.1.3) (2026-06-16)
+
+
+### Features
+
+* add Google Cloud Storage extension ([#30](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/30)) ([6d3b166](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/6d3b1663597d8b5e5a45b92e19f60941d38ff064))
+
+## [0.1.2](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.1...0.1.2) (2026-06-12)
+
+
+### Features
+
+* **deps:** update data-agent-kit-starter-pack plugin to v0.4.0 ([#26](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/26)) ([949e59c](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/949e59c1cb0cb97e3852275a3a866d3967d1cbc8))
+
 ## [0.1.1](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.0...0.1.1) (2026-05-29)
 
 

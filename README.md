@@ -61,7 +61,7 @@ Codex utilizes a marketplace system for plugins. Install the Data Agent Kit mark
 
 ```bash
 # Step 1. Clone the repo
-git clone --branch 0.1.1 https://github.com/GoogleCloudPlatform/data-agent-kit.git
+git clone --recurse-submodules --shallow-submodules --branch 0.1.3 https://github.com/GoogleCloudPlatform/data-agent-kit.git
 cd data-agent-kit
 
 # Step 2. Open the plugin manager interface
@@ -71,7 +71,7 @@ codex
 
 # Optional. Update the marketplace
 git fetch --tags
-git checkout 0.1.1
+git checkout 0.1.3
 ```
 
 </details>
@@ -92,6 +92,7 @@ These extensions package product-specific Skills and MCP servers for use in any 
 | **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
 | **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
 | **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
+| **Google Cloud Storage** | https://github.com/gemini-cli-extensions/google-cloud-storage | Vetted Google Cloud Storage skills for your coding agent. |
 | **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
 | **Oracle Database** | https://github.com/gemini-cli-extensions/oracledb | Connect, query, and interact with Oracle Databases and their data within Gemini CLI. |
 | **Spanner** | https://github.com/gemini-cli-extensions/spanner | Connect and interact with Spanner data using natural language. |
