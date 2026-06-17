@@ -20,6 +20,37 @@
         "github-actions"
       ],
       "pinDigests": true
+    },
+    {
+      "matchManagers": [
+        "git-submodules",
+        "custom.jsonata"
+      ],
+      "groupName": "{{depName}}"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "jsonata",
+      "fileFormat": "json",
+      "managerFilePatterns": [
+        "/^\\.claude-plugin/marketplace\\.json$/"
+      ],
+      "matchStrings": [
+        "plugins.{ \"depName\": $substringAfter(source.repo, \"/\"), \"packageName\": source.repo, \"currentValue\": source.ref }"
+      ],
+      "datasourceTemplate": "github-releases"
+    },
+    {
+      "customType": "jsonata",
+      "fileFormat": "json",
+      "managerFilePatterns": [
+        "/^\\.agents/plugins/marketplace\\.json$/"
+      ],
+      "matchStrings": [
+        "plugins.($r := $replace(source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $substringAfter($r, \"/\"), \"packageName\": $r, \"currentValue\": source.ref })"
+      ],
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
