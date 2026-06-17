@@ -117,6 +117,19 @@
       "category": "Databases"
     },
     {
+      "name": "google-cloud-storage",
+      "source": {
+        "source": "local",
+        "path": "./google-cloud-storage"
+      },
+      "description": "Vetted Google Cloud Storage skills for your coding agent.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Storage"
+    },
+    {
       "name": "looker",
       "source": {
         "source": "url",

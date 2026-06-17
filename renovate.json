@@ -13,6 +13,9 @@
   "dependencyDashboardLabels": [
     "type: process"
   ],
+  "git-submodules": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "groupName": "GitHub Actions",
@@ -54,3 +57,4 @@
     }
   ]
 }
+
