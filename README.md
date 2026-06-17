@@ -76,6 +76,16 @@ git checkout 0.1.2
 
 </details>
 
+<details>
+<summary><h3>Antigravity CLI Installation</h3></summary>
+
+Antigravity CLI installs plugins directly from their remote GitHub repositories.
+```bash
+agy plugins install https://github.com/GoogleCloudPlatform/data-agent-kit
+```
+
+</details>
+
 <!-- {x-release-please-end} -->
 
 ### 📦 Individual Extensions & Plugins
