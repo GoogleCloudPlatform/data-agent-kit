@@ -7,9 +7,8 @@
     {
       "name": "alloydb",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/alloydb.git",
-        "path": "./",
         "ref": "0.2.0"
       },
       "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
@@ -22,9 +21,8 @@
     {
       "name": "alloydb-omni",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/alloydb-omni.git",
-        "path": "./",
         "ref": "0.2.1"
       },
       "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
@@ -37,9 +35,8 @@
     {
       "name": "bigtable",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem.git",
-        "path": "./",
         "ref": "v0.4.0"
       },
       "description": "Connect, query, and interact with Cloud Bigtable.",
@@ -52,9 +49,8 @@
     {
       "name": "cloud-sql-mysql",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-mysql.git",
-        "path": "./",
         "ref": "0.2.0"
       },
       "description": "Connect and interact with a Cloud SQL for MySQL database and data.",
@@ -67,9 +63,8 @@
     {
       "name": "cloud-sql-postgresql",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-postgresql.git",
-        "path": "./",
         "ref": "0.4.0"
       },
       "description": "Create, connect, and interact with a Cloud SQL for PostgreSQL database and data.",
@@ -82,9 +77,8 @@
     {
       "name": "cloud-sql-sqlserver",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver.git",
-        "path": "./",
         "ref": "0.2.0"
       },
       "description": "Connect to Cloud SQL for SQL Server.",
@@ -97,9 +91,8 @@
     {
       "name": "firestore-native",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/firestore-native.git",
-        "path": "./",
         "ref": "0.3.0"
       },
       "description": "Connect and interact with Cloud Firestore.",
@@ -112,9 +105,8 @@
     {
       "name": "data-agent-kit-starter-pack",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git",
-        "path": "./",
         "ref": "0.2.0"
       },
       "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
@@ -127,9 +119,8 @@
     {
       "name": "looker",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/looker.git",
-        "path": "./",
         "ref": "0.3.4"
       },
       "description": "Connect to Looker.",
@@ -142,9 +133,8 @@
     {
       "name": "oracledb",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/oracledb.git",
-        "path": "./",
         "ref": "0.2.1"
       },
       "description": "Connect, query, and interact with Oracle Databases and their data within Gemini CLI.",
@@ -157,9 +147,8 @@
     {
       "name": "spanner",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/gemini-cli-extensions/spanner.git",
-        "path": "./",
         "ref": "0.3.1"
       },
       "description": "Connect and interact with Spanner data using natural language.",
