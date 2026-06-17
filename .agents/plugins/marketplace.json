@@ -93,7 +93,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/firestore-native.git",
-        "ref": "0.3.0"
+        "ref": "0.3.1"
       },
       "description": "Connect and interact with Cloud Firestore.",
       "policy": {
@@ -119,8 +119,9 @@
     {
       "name": "google-cloud-storage",
       "source": {
-        "source": "local",
-        "path": "./google-cloud-storage"
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/google-cloud-storage.git",
+        "ref": "0.1.1"
       },
       "description": "Vetted Google Cloud Storage skills for your coding agent.",
       "policy": {
@@ -134,7 +135,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/looker.git",
-        "ref": "0.3.4"
+        "ref": "0.3.5"
       },
       "description": "Connect to Looker.",
       "policy": {
@@ -148,7 +149,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/oracledb.git",
-        "ref": "0.2.1"
+        "ref": "0.2.3"
       },
       "description": "Connect, query, and interact with Oracle Databases and their data within Gemini CLI.",
       "policy": {
