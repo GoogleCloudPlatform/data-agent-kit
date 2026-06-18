@@ -52,7 +52,7 @@
       "matchStrings": [
         "plugins.{ \"depName\": $substringAfter(source.repo, \"/\"), \"packageName\": source.repo, \"currentValue\": source.ref }"
       ],
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-tags"
     },
     {
       "customType": "jsonata",
@@ -63,7 +63,7 @@
       "matchStrings": [
         "plugins.($r := $replace(source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $substringAfter($r, \"/\"), \"packageName\": $r, \"currentValue\": source.ref })"
       ],
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
