@@ -26,22 +26,12 @@
     },
     {
       "matchManagers": [
-        "git-submodules",
-        "custom.jsonata"
+        "git-submodules"
       ],
-      "groupName": "{{depName}}",
-      "semanticCommitType": "feat"
-    },
-    {
-      "customType": "jsonata",
-      "fileFormat": "json",
-      "managerFilePatterns": [
-        "/^\\.agents/plugins/marketplace\\.json$/"
+      "matchUpdateTypes": [
+        "digest"
       ],
-      "matchStrings": [
-        "plugins.($r := $replace(source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $substringAfter($r, \"/\"), \"packageName\": $r, \"currentValue\": source.ref })"
-      ],
-      "datasourceTemplate": "github-releases"
+      "enabled": false
     }
   ],
   "customManagers": [
