@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.4](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.3...0.1.4) (2026-06-17)
+
+
+### Features
+
+* **deps:** update firestore-native plugin to v0.3.1 ([#35](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/35)) ([86af88a](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/86af88a3cd226fb23a465be8b768ae75f3edaf52))
+* **deps:** update looker plugin to v0.3.5 ([#24](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/24)) ([38897fa](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/38897faee21bf881c436f32c6b261049009e6842))
+* **deps:** update oracledb plugin to v0.2.3 ([#32](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/32)) ([c55c8d8](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/c55c8d8b861dcc592140f779283c67258db37bce))
+* use github as source of truth ([704ecfe](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/704ecfef8f48f192b2cc14883f400345a2c3cc2e))
+
+## [0.1.3](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.2...0.1.3) (2026-06-16)
+
+
+### Features
+
+* add Google Cloud Storage extension ([#30](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/30)) ([6d3b166](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/6d3b1663597d8b5e5a45b92e19f60941d38ff064))
+
 ## [0.1.2](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.1...0.1.2) (2026-06-12)
 
 

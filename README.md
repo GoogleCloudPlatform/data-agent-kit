@@ -60,18 +60,14 @@ claude plugin marketplace update data-agent-kit
 Codex utilizes a marketplace system for plugins. Install the Data Agent Kit marketplace to access all Data Cloud plugins:
 
 ```bash
-# Step 1. Clone the repo
-git clone --recurse-submodules --shallow-submodules --branch 0.1.2 https://github.com/GoogleCloudPlatform/data-agent-kit.git
-cd data-agent-kit
+# Step 1. Install marketplace
+codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
 
-# Step 2. Open the plugin manager interface
-codex
-# Browse & install plugins from available marketplaces.
-/plugins
+# Step 2. Install a plugin
+codex plugin install <plugin-name>@data-agent-kit
 
 # Optional. Update the marketplace
-git fetch --tags
-git checkout 0.1.2
+codex plugin marketplace upgrade data-agent-kit
 ```
 
 </details>
@@ -102,6 +98,7 @@ These extensions package product-specific Skills and MCP servers for use in any 
 | **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
 | **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
 | **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
+| **Google Cloud Storage** | https://github.com/gemini-cli-extensions/google-cloud-storage | Vetted Google Cloud Storage skills for your coding agent. |
 | **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
 | **Oracle Database** | https://github.com/gemini-cli-extensions/oracledb | Connect, query, and interact with Oracle Databases and their data within Gemini CLI. |
 | **Spanner** | https://github.com/gemini-cli-extensions/spanner | Connect and interact with Spanner data using natural language. |

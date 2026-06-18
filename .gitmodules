@@ -21,11 +21,11 @@
 [submodule "looker"]
 	path = looker
 	url = https://github.com/gemini-cli-extensions/looker
-	branch = 0.3.4
+	branch = 0.3.5
 [submodule "oracledb"]
 	path = oracledb
 	url = https://github.com/gemini-cli-extensions/oracledb
-	branch = 0.2.1
+	branch = 0.2.3
 [submodule "spanner"]
 	path = spanner
 	url = https://github.com/gemini-cli-extensions/spanner
@@ -33,8 +33,12 @@
 [submodule "firestore-native"]
 	path = firestore-native
 	url = https://github.com/gemini-cli-extensions/firestore-native
-	branch = 0.3.0
+	branch = 0.3.1
 [submodule "data-agent-kit-starter-pack"]
 	path = data-agent-kit-starter-pack
 	url = https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack
 	branch = 0.4.0
+[submodule "google-cloud-storage"]
+	path = google-cloud-storage
+	url = https://github.com/gemini-cli-extensions/google-cloud-storage
+	branch = 1.1.0
