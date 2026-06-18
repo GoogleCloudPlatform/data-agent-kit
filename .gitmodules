@@ -41,4 +41,4 @@
 [submodule "google-cloud-storage"]
 	path = google-cloud-storage
 	url = https://github.com/gemini-cli-extensions/google-cloud-storage
-	branch = 1.1.0
+	branch = 1.2.0
