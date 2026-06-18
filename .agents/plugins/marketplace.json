@@ -142,7 +142,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Databases"
+      "category": "Business Intelligence & Analytics"
     },
     {
       "name": "oracledb",
@@ -171,6 +171,48 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Databases"
+    },
+    {
+      "name": "knowledge-catalog",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/knowledge-catalog.git",
+        "ref": "0.5.2"
+      },
+      "description": "Skills for Knowledge Catalog.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data Governance & Management"
+    },
+    {
+      "name": "dataproc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/dataproc.git",
+        "ref": "0.1.0"
+      },
+      "description": "Skills for Dataproc.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data Processing & ETL"
+    },
+    {
+      "name": "bigquery-data-analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics.git",
+        "ref": "0.2.1"
+      },
+      "description": "Data Analytics skills for BigQuery.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data Warehousing & Data Lakes"
     }
   ]
 }
