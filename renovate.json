@@ -26,6 +26,14 @@
     },
     {
       "matchManagers": [
+        "git-submodules",
+        "custom.jsonata"
+      ],
+      "groupName": "{{depName}}",
+      "semanticCommitType": "feat"
+    },
+    {
+      "matchManagers": [
         "git-submodules"
       ],
       "matchUpdateTypes": [
@@ -59,4 +67,3 @@
     }
   ]
 }
-
