@@ -42,3 +42,12 @@
 	path = plugins/google-cloud-storage
 	url = https://github.com/gemini-cli-extensions/google-cloud-storage
 	branch = 1.2.0
+[submodule "bigquery-data-analytics"]
+	path = plugins/bigquery-data-analytics
+	url = https://github.com/gemini-cli-extensions/bigquery-data-analytics.git
+[submodule "dataproc"]
+	path = plugins/dataproc
+	url = https://github.com/gemini-cli-extensions/dataproc.git
+[submodule "knowledge-catalog"]
+	path = plugins/knowledge-catalog
+	url = https://github.com/gemini-cli-extensions/knowledge-catalog.git
