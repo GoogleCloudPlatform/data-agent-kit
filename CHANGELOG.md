@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.5](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.4...0.1.5) (2026-06-23)
+
+
+### Features
+
+* add products bq, knowledge catalog, dataproc ([#54](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/54)) ([ce332e9](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/ce332e9d84dcd303ec08a2e4528cc0c31e733cb4))
+* **deps:** update google-cloud-storage to v1 ([#41](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/41)) ([22b53f1](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/22b53f1a3c5b7b77249788b47a68e41c93a37758))
+* **deps:** update looker to v0.3.5 ([#38](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/38)) ([eb971ea](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/eb971ea0f0018588a7955221ce3abc5125d809a9))
+* **deps:** update oracledb to v0.2.3 ([#39](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/39)) ([fdb09dd](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/fdb09dd71ab6c9606ecdd099a1064fef5cbd665e))
+* support AGY CLI ([#46](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/46)) ([9f4fdaf](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/9f4fdaff6c229673318573266a0d0625af9b3f92))
+
 ## [0.1.4](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.3...0.1.4) (2026-06-17)
 
 
