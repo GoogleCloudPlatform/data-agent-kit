@@ -5,7 +5,7 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "metadata": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "A repository of prescriptive plugins and tools designed to provide a high-performance experience for building and deploying agentic applications across the Google Data Cloud ecosystem."
   },
   "plugins": [
@@ -116,6 +116,33 @@
         "ref": "0.3.1"
       },
       "description": "Connect and interact with Spanner data using natural language."
+    },
+    {
+      "name": "knowledge-catalog",
+      "source": {
+        "source": "github",
+        "repo": "gemini-cli-extensions/knowledge-catalog",
+        "ref": "0.5.2"
+      },
+      "description": "Skills for Knowledge Catalog."
+    },
+    {
+      "name": "dataproc",
+      "source": {
+        "source": "github",
+        "repo": "gemini-cli-extensions/dataproc",
+        "ref": "0.1.0"
+      },
+      "description": "Skills for Dataproc."
+    },
+    {
+      "name": "bigquery",
+      "source": {
+        "source": "github",
+        "repo": "gemini-cli-extensions/bigquery-data-analytics",
+        "ref": "0.2.1"
+      },
+      "description": "Data Analytics skills for BigQuery."
     }
   ]
 }
