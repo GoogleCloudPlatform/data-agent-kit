@@ -201,7 +201,7 @@
       "category": "Data Processing & ETL"
     },
     {
-      "name": "bigquery-data-analytics",
+      "name": "bigquery",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics.git",

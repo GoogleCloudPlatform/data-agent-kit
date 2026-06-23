@@ -136,7 +136,7 @@
       "description": "Skills for Dataproc."
     },
     {
-      "name": "bigquery-data-analytics",
+      "name": "bigquery",
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/bigquery-data-analytics",
