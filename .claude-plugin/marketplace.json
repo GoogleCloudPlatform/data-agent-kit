@@ -143,6 +143,16 @@
         "ref": "0.2.1"
       },
       "description": "Data Analytics skills for BigQuery."
+    },
+    {
+      "name": "db-context-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "GoogleCloudPlatform/db-context-enrichment",
+        "path": "plugin",
+        "ref": "v0.6.0"
+      },
+      "description": "Context Engineering Agent for generating and maintaining QueryData / Conversational Analytics API context sets (templates, facets, value searches) for natural language to SQL tasks. Works with AlloyDB, Cloud SQL for MySQL, Cloud SQL for PostgreSQL, and Spanner."
     }
   ]
 }

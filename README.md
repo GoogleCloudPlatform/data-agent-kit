@@ -119,6 +119,7 @@ These extensions package product-specific Skills and MCP servers for use in any 
 | **Cloud SQL for MySQL** | https://github.com/gemini-cli-extensions/cloud-sql-mysql | Connect and interact with a Cloud SQL for MySQL database and data. |
 | **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
 | **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
+| **DB Context Engineering Agent** | https://github.com/GoogleCloudPlatform/db-context-enrichment | Author and maintain QueryData / Conversational Analytics API context sets (templates, facets, value searches) that teach the NL→SQL planner your schema vocabulary and golden query shapes. |
 | **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
 | **Google Cloud Storage** | https://github.com/gemini-cli-extensions/google-cloud-storage | Vetted Google Cloud Storage skills for your coding agent. |
 | **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
