@@ -113,13 +113,13 @@ These extensions package product-specific Skills and MCP servers for use in any 
 | Product | Location | Description |
 | :--- | :--- | :--- |
 | **Data Agent Kit Starter Pack** | https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack | This plugin provides a specialized suite of skills for data users using BigQuery and Managed Apache Spark  along with Knowledge catalog. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across the GCP data ecosystem. |
-| **DB Context Engineering Agent** | https://github.com/GoogleCloudPlatform/db-context-enrichment | Author and maintain QueryData / Conversational Analytics API context sets (templates, facets, value searches) that teach the NL→SQL planner your schema vocabulary and golden query shapes. Pairs with the **AlloyDB for PostgreSQL**, **Cloud SQL for MySQL**, **Cloud SQL for PostgreSQL**, and **Spanner** plugins below — use this whenever the planner is generating wrong SQL because it doesn't know your enum values or business logic. |
 | **AlloyDB for PostgreSQL** | https://github.com/gemini-cli-extensions/alloydb | Create, connect, and interact with an AlloyDB for PostgreSQL database and data. |
 | **AlloyDB Omni** | https://github.com/gemini-cli-extensions/alloydb-omni | Create, connect, and interact with an AlloyDB Omni database and data. |
 | **Bigtable** | https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem | Connect, query, and interact with Cloud Bigtable. |
 | **Cloud SQL for MySQL** | https://github.com/gemini-cli-extensions/cloud-sql-mysql | Connect and interact with a Cloud SQL for MySQL database and data. |
 | **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
 | **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
+| **DB Context Engineering Agent** | https://github.com/GoogleCloudPlatform/db-context-enrichment | Author and maintain QueryData / Conversational Analytics API context sets (templates, facets, value searches) that teach the NL→SQL planner your schema vocabulary and golden query shapes. |
 | **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
 | **Google Cloud Storage** | https://github.com/gemini-cli-extensions/google-cloud-storage | Vetted Google Cloud Storage skills for your coding agent. |
 | **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
