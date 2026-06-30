@@ -112,7 +112,7 @@ These extensions package product-specific Skills and MCP servers for use in any 
 
 | Product | Location | Description |
 | :--- | :--- | :--- |
-| **Data Agent Kit Starter Pack** | https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack | This plugin provides a specialized suite of skills for data users using BigQuery and Managed Apache Spark  along with Knowledge catalog. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across the GCP data ecosystem. |
+| **Data Agent Kit Starter Pack** | https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack | This plugin provides a specialized suite of skills for data users using BigQuery, Dataflow and Managed Apache Spark  along with Knowledge catalog. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, create and troubleshoot Dataflow pipelines, and orchestrate end-to-end workflows across the GCP data ecosystem. |
 | **AlloyDB for PostgreSQL** | https://github.com/gemini-cli-extensions/alloydb | Create, connect, and interact with an AlloyDB for PostgreSQL database and data. |
 | **AlloyDB Omni** | https://github.com/gemini-cli-extensions/alloydb-omni | Create, connect, and interact with an AlloyDB Omni database and data. |
 | **Bigtable** | https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem | Connect, query, and interact with Cloud Bigtable. |
