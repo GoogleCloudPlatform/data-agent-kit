@@ -64,7 +64,7 @@ Codex utilizes a marketplace system for plugins. Install the Data Agent Kit mark
 codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
 
 # Step 2. Install a plugin
-codex plugin install <plugin-name>@data-agent-kit
+codex plugin add <plugin-name>@data-agent-kit
 
 # Optional. Update the marketplace
 codex plugin marketplace upgrade data-agent-kit
