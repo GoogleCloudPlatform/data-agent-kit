@@ -37,7 +37,7 @@
 [submodule "data-agent-kit-starter-pack"]
 	path = plugins/data-agent-kit-starter-pack
 	url = https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack
-	branch = 0.4.0
+	branch = 0.6.1
 [submodule "google-cloud-storage"]
 	path = plugins/google-cloud-storage
 	url = https://github.com/gemini-cli-extensions/google-cloud-storage
@@ -54,3 +54,7 @@
 	path = plugins/knowledge-catalog
 	url = https://github.com/gemini-cli-extensions/knowledge-catalog.git
 	branch = 0.5.2
+[submodule "db-context-enrichment"]
+	path = plugins/db-context-enrichment
+	url = https://github.com/GoogleCloudPlatform/db-context-enrichment.git
+	branch = v0.6.0
