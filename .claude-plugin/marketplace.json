@@ -5,7 +5,7 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "metadata": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A repository of prescriptive plugins and tools designed to provide a high-performance experience for building and deploying agentic applications across the Google Data Cloud ecosystem."
   },
   "plugins": [
@@ -77,7 +77,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/data-agent-kit-starter-pack",
-        "ref": "0.4.0"
+        "ref": "0.7.2"
       },
       "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem."
     },

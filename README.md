@@ -64,7 +64,7 @@ Codex utilizes a marketplace system for plugins. Install the Data Agent Kit mark
 codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
 
 # Step 2. Install a plugin
-codex plugin install <plugin-name>@data-agent-kit
+codex plugin add <plugin-name>@data-agent-kit
 
 # Optional. Update the marketplace
 codex plugin marketplace upgrade data-agent-kit
@@ -82,7 +82,7 @@ Antigravity CLI installs plugins directly from remote GitHub repositories. You h
 Installs all Data Cloud plugins from this repository in one step:
 
 ```bash
-agy plugins install https://github.com/GoogleCloudPlatform/data-agent-kit
+agy plugin install https://github.com/GoogleCloudPlatform/data-agent-kit
 ```
 
 **Option 2. Install individual plugins from their product repositories**
@@ -90,14 +90,14 @@ agy plugins install https://github.com/GoogleCloudPlatform/data-agent-kit
 Point `agy` at a specific plugin's repository to install just that one:
 
 ```bash
-agy plugins install <REPO>
+agy plugin install <REPO>
 ```
 
 For example:
 
 ```bash
-agy plugins install https://github.com/gemini-cli-extensions/alloydb
-agy plugins install https://github.com/gemini-cli-extensions/spanner
+agy plugin install https://github.com/gemini-cli-extensions/alloydb
+agy plugin install https://github.com/gemini-cli-extensions/spanner
 ```
 
 See the [Individual Extensions & Plugins](#-individual-extensions--plugins) table below for the full list of repositories.

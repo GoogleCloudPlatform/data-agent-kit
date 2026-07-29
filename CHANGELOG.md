@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.6](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.5...0.1.6) (2026-07-28)
+
+
+### Features
+
+* add db-context-engineering plugin to marketplace + README ([#56](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/56)) ([e4a9dc7](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/e4a9dc78c489bb447f1c4b298625ea1a6d041536))
+* **deps:** update data-agent-kit-starter-pack to v0.7.0 ([#68](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/68)) ([1bada51](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/1bada5130427e20292dfa1a4f59240374139729b))
+* **deps:** update data-agent-kit-starter-pack to v0.7.1 ([#69](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/69)) ([6fbd390](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/6fbd39018259815b6de35e90c74e16c40a71efd9))
+* **deps:** update data-agent-kit-starter-pack to v0.7.2 ([#72](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/72)) ([6408ebf](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/6408ebf89d6b13d4166325c6f6ced02130298a30))
+* **deps:** update dependency data-agent-kit-starter-pack to v0.6.1 ([#48](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/48)) ([3b9015a](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/3b9015a7a6da221c50a41dc739baff3287c751a9))
+* **deps:** update dependency plugins/data-agent-kit-starter-pack to v0.6.1 ([#55](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/55)) ([fa20737](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/fa20737cfca974b199a1fc358f4df8478b0c604c))
+
+
+### Bug Fixes
+
+* merge two renovate PRs into one ([#66](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/66)) ([8425810](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/8425810ff155d4e1e28122662c20c29fbe37c99a))
+* update codex installation command ([#65](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/65)) ([410ff09](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/410ff09be5df4317f66e2c97b8bb2b103fde9266))
+
 ## [0.1.5](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.4...0.1.5) (2026-06-23)
 
 

@@ -29,7 +29,7 @@
         "git-submodules",
         "custom.jsonata"
       ],
-      "groupName": "{{depName}}",
+      "groupName": "{{{replace 'plugins/' '' depName}}}",
       "semanticCommitType": "feat"
     },
     {
@@ -67,4 +67,3 @@
     }
   ]
 }
-
