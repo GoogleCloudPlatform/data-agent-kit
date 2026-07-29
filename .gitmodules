@@ -58,3 +58,7 @@
 	path = plugins/db-context-enrichment
 	url = https://github.com/GoogleCloudPlatform/db-context-enrichment.git
 	branch = v0.6.0
+[submodule "cloud-bigtable-ecosystem"]
+	path = plugins/cloud-bigtable-ecosystem
+	url = https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem.git
+	branch = v0.4.0
