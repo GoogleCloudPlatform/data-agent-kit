@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.7](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.6...0.1.7) (2026-08-07)
+
+
+### Features
+
+* add bigtable submodule ([#73](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/73)) ([dbf30f5](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/dbf30f52663a383526db330a12bddca213dc80bd))
+* **deps:** update data-agent-kit-starter-pack to v0.8.0 ([#77](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/77)) ([118781f](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/118781f4fc857b9faa84d7c33c5653de7b40996a))
+
+
+### Bug Fixes
+
+* re-pin drifted submodules and add pin-drift CI check ([#76](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/76)) ([84fa571](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/84fa5713555fc14b6a0ca8e2c4747a8dee06a7db))
+
 ## [0.1.6](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.5...0.1.6) (2026-07-28)
 
 
